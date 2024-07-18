@@ -32,6 +32,9 @@ It relies on the [Spatial CLI](https://blog.mikeswanson.com/spatial-video/) prog
 		# The Spatial CLI app now lives on your hard disk at:
 		/opt/homebrew/bin/spatial
 
+		# If you want to uninstall the Spatial CLI app using brew in the macOS terminal:
+		brew uninstall spatial
+
 ## DCC Tool Integrations
 
 This same metadata embedding toolset is also available for use inside of BMD's DaVinci Resolve Studio video editing software via the "KartaLink | Spatial Metadata" scripts that can be installed using the [Reactor Package Manager](https://kartaverse.github.io/Reactor-Docs/#/reactor).
