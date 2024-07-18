@@ -1,6 +1,6 @@
 # Spatial Metadata GUI
 
-GUI by Andrew Hazelden <andrew@andrewhazelden>  
+GUI by Andrew Hazelden <andrew@andrewhazelden.com>  
 Powered by the [Spatial CLI](https://blog.mikeswanson.com/spatial-video/) tool by Mike Swanson  
 
 ## Overview
@@ -16,6 +16,12 @@ The Spatial Metadata GUI downloads are provided using the GitHub releases mechan
 When you expand the zip file you will have access to the following toolset:
 
 ![GUI](Docs/Images/zip_contents.png)
+
+## Video Tutorial
+
+Learn how to encode next-gen MV-HEVC spatial video for playback on Apple Vision Pro and Meta Quest HMDs. This video covers the Spatial Metadata GUI as a standalone tool, and as a media command/trigger script that works inside of BMD Resolve (Free)/Resolve Studio: [YouTube | No Code! Free Spatial Video Metadata Injector for Apple Vision Pro | Standalone & DaVinci Resolve](https://www.youtube.com/watch?v=PJWsscXmJiE)
+
+[![YouTube Video](Docs/Images/hugh-hou-video.png)](https://www.youtube.com/watch?v=PJWsscXmJiE)
 
 ## Requirements
 
