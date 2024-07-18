@@ -24,7 +24,7 @@ The Spatial Metadata GUI is compatible with macOS systems that run macOS 14+ (So
 It relies on the [Spatial CLI](https://blog.mikeswanson.com/spatial-video/) program that can be installed using the macOS based [Homebrew](https://brew.sh/) package manager.
 
 		# Install Homebrew using the macOS terminal:
-		/bin/bash -c ""$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+		/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 		
 		# Install the Spatial CLI app using the brew program in the macOS terminal:
 		brew install spatial
