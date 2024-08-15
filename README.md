@@ -9,6 +9,7 @@ This program runs a new MV-HEVC spatial video encoding session. To pick a file, 
 
 ![GUI](Docs/Images/gui.png)
 
+
 ## Download
 
 The Spatial Metadata GUI downloads are provided using the GitHub releases mechanism. To download the program you simply have to click on the "[Releases](https://github.com/Kartaverse/Spatial-Metadata/releases)" sidebar link to access the 10MB zip archive.
@@ -17,11 +18,13 @@ When you expand the zip file you will have access to the following toolset:
 
 ![GUI](Docs/Images/zip_contents.png)
 
+
 ## Video Tutorial
 
 Learn how to encode next-gen MV-HEVC spatial video for playback on Apple Vision Pro and Meta Quest HMDs. This video covers the Spatial Metadata GUI as a standalone tool, and as a media command/trigger script that works inside of BMD Resolve (Free)/Resolve Studio: [YouTube | No Code! Free Spatial Video Metadata Injector for Apple Vision Pro | Standalone & DaVinci Resolve](https://www.youtube.com/watch?v=PJWsscXmJiE)
 
 [![YouTube Video](Docs/Images/hugh-hou-video.png)](https://www.youtube.com/watch?v=PJWsscXmJiE)
+
 
 ## Requirements
 
@@ -41,6 +44,21 @@ It relies on the [Spatial CLI](https://blog.mikeswanson.com/spatial-video/) prog
 		# If you want to uninstall the Spatial CLI app using brew in the macOS terminal:
 		brew uninstall spatial
 
+
+## Change Log
+
+### Version 1 (2024-07-14)
+
+- Initial Release
+
+### Version 1.2 (2024-08-15)
+
+- Clicking on the "movie camera" icon in the GUI  opens the project's GitHub page in your default web browser.
+- The program includes localization support for numbers in text fields. This means comma vs period decimal separators are handled automatically based upon your current locale settings. The localized values are then translated into the correct format for the Spatial CLI tool.
+- The "Fast Start" checkbox is used to place a QuickTime "Moov" atom at the start of the video file. This helps with network playback of media that is progressively downloaded.
+- An "Overwrite an Existing Movie File Export" checkbox allows you to re-export the encoded video file with different parameters. When this checkbox is enabled, the Spatial Metadata GUI program will replace a pre-existing video export that has the same filename.
+
+
 ## DCC Tool Integrations
 
 This same metadata embedding toolset is also available for use inside of BMD's DaVinci Resolve Studio video editing software via the "KartaLink | Spatial Metadata" scripts that can be installed using the [Reactor Package Manager](https://kartaverse.github.io/Reactor-Docs/#/reactor).
@@ -50,6 +68,7 @@ This same metadata embedding toolset is also available for use inside of BMD's D
 The DaVinci Resolve version of the Spatial Metadata toolset allows you to work with immersive footage using Resolve Media Pool "bins". The Kartaverse [Media Command](https://kartaverse.github.io/Kartaverse-Docs/#/mediacommand) launched "Spatial Metadata.lua" script is used to batch processes 180VR, 360VR, fisheye, or flat image projection videos into MV-HEVC encoded content in only a few clicks. This multi-view encoded stereoscopic 3D material is ready for playback on devices like Apple Vision Pro HMDs and Meta Quest HMDs.
 
 ![DaVinci Resolve](Docs/Images/davinci-resolve.png)
+
 
 ## Source Code
 
