@@ -1,4 +1,4 @@
-Spatial Metadata GUI - v1.2 2024-08-15
+Spatial Metadata GUI - v1.3 2024-09-17
 GUI by Andrew Hazelden <andrew@andrewhazelden.com>
 Powered by the Spatial CLI tool by Mike Swanson
 
@@ -41,3 +41,9 @@ Version 1.2 (2024-08-15)
 - The program includes localization support for numbers in text fields. This means comma vs period decimal separators are handled automatically based upon your current locale settings. The localized values are then translated into the correct format for the Spatial CLI tool.
 - The "Fast Start" checkbox is used to place a QuickTime "Moov" atom at the start of the video file. This helps with network playback of media that is progressively downloaded.
 - An "Overwrite an Existing Movie File Export" checkbox allows you to re-export the encoded video file with different parameters. When this checkbox is enabled, the Spatial Metadata GUI program will replace a pre-existing video export that has the same filename.
+
+Version 1.3 (2024-09-17)
+- Added a JSON preference saving system that can save/restore the last values used in the GUI the next time you launch the Spatial Metadata GUI app. The preference file is saved to:
+"$HOME/Library/Application Support/Kartaverse/Spatial Metadata GUI.json"
+
+
