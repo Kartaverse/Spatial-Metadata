@@ -63,6 +63,15 @@ It relies on the [Spatial CLI](https://blog.mikeswanson.com/spatial-video/) prog
 - Added a JSON preference saving system that can save/restore the last values used in the GUI the next time you launch the Spatial Metadata GUI app. The preference file is saved to:
 "```$HOME/Library/Application Support/Kartaverse/Spatial Metadata GUI.json```"
 
+### Version 1.4 (2025-10-17)
+- Updated the Apple code signing workflow for the app
+- Added a progress bar, and a dialog that pops up when the video encoding task completes
+- Added new menu items:
+  - "Help > About Spatial Metadata GUI"
+  - "Help > Watch the Video Tutorial"
+  - "Help > Report an Issue"
+  - "Help > Check for Updates"
+
 ## DCC Tool Integrations
 
 This same metadata embedding toolset is also available for use inside of BMD's DaVinci Resolve Studio video editing software via the "[KartaLink | Spatial Metadata](https://kartaverse.github.io/Reactor-Docs/#/com.AndrewHazelden.KartaLink.Scripts.SpatialMetadata)" scripts that can be installed using the [Reactor Package Manager](https://kartaverse.github.io/Reactor-Docs/#/reactor).
