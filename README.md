@@ -64,6 +64,7 @@ It relies on the [Spatial CLI](https://blog.mikeswanson.com/spatial-video/) prog
 "```$HOME/Library/Application Support/Kartaverse/Spatial Metadata GUI.json```"
 
 ### Version 1.4 (2025-10-17)
+
 - Updated the Apple code signing workflow for the app
 - Added a progress bar, and a dialog that pops up when the video encoding task completes
 - Added new menu items:
