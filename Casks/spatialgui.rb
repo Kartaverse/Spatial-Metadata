@@ -12,7 +12,7 @@ cask "spatialgui" do
     strategy :github_latest
   end
 
-  depends_on formula: "spatial"
+  depends_on cask: "spatial"
 
   app "Spatial Metadata GUI.app"
 
