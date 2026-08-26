@@ -14,7 +14,7 @@ cask "spatialgui" do
 
   depends_on cask: "spatial"
 
-  app "Spatial Metadata GUI.app"
+  app "Spatial Metadata GUI/Spatial Metadata GUI.app"
 
   caveats <<~EOS
     Spatial Metadata GUI & Mike Swanson's Spatial CLI apps have been installed!
