@@ -9,7 +9,6 @@ This program runs a new MV-HEVC spatial video encoding session. To pick a file, 
 
 ![GUI](Docs/Images/gui.png)
 
-
 ## Download
 
 The Spatial Metadata GUI downloads are provided using the GitHub releases mechanism. To download the program you simply have to click on the "[Releases](https://github.com/Kartaverse/Spatial-Metadata/releases)" sidebar link to access the 10MB zip archive.
@@ -18,13 +17,13 @@ When you expand the zip file you will have access to the following toolset:
 
 ![GUI](Docs/Images/zip_contents.png)
 
+Note: As of (2026-08-26) it is now possible to install Spatial Metadata GUI and Spatial CLI at the same time using a new Homebrew cask. For more information check out the [Homebrew.md](Homebrew.md) file in this repo. 
 
 ## Video Tutorial
 
 Learn how to encode next-gen MV-HEVC spatial video for playback on Apple Vision Pro and Meta Quest HMDs. This video covers the Spatial Metadata GUI as a standalone tool, and as a media command/trigger script that works inside of BMD Resolve (Free)/Resolve Studio: [YouTube | No Code! Free Spatial Video Metadata Injector for Apple Vision Pro | Standalone & DaVinci Resolve](https://www.youtube.com/watch?v=PJWsscXmJiE)
 
 [![YouTube Video](Docs/Images/hugh-hou-video.png)](https://www.youtube.com/watch?v=PJWsscXmJiE)
-
 
 ## Requirements
 
