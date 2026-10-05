@@ -15,8 +15,10 @@ The Homebrew package manager for macOS is installed using the terminal command:
 Spatial Metadata GUI and the Spatial CLI toolset can then be installed using Homebrew's "brew" CLI tool:
 
 ```bash
+{
 brew tap kartaverse/spatial-metadata https://github.com/Kartaverse/Spatial-Metadata
 brew install --cask kartaverse/spatial-metadata/spatialgui
+}
 ```
 
 If you need more detailed information for the brew install process you can run:
@@ -82,6 +84,8 @@ All dependencies satisfied.
 To remove Spatial Metadata GUI and untap the repository:
 
 ```bash
+{
 brew uninstall --cask kartaverse/spatial-metadata/spatialgui
 brew untap kartaverse/spatial-metadata
+}
 ```
